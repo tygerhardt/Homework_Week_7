@@ -1,38 +1,66 @@
 
 /*MY CSS*/
 #content {
-background-image: url('../images/bg.png');
-background-repeat: no-repeat;
-background-size: contain;
-background-position: center;
-  }
+  background-image: url(https://i.imgur.com/NqUqn7T.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: black;
+  height: 850px; 
+}
 
-  .tyRound {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
-    border-radius: 50%;
-  }
+.wf-loading {
+  opacity: 0;
+}
+
+.p {
+  margin-bottom: -10px;
+}
+
+.tyRound {
+  position: relative;
+  max-height: 90px;
+  max-width: 90px;
+  width: 285px;
+  height: 285px;
+  overflow: hidden;
+  border-radius: 100%;
+  border: 2px solid whitesmoke;
+}
   
-  .tyRound img {
-    width: 100%;
-    height: auto;
-  }
+.tyRound img {
+  width: 100%;
+  height: 100%;  
+}
 
-
-
+.centerImage {
+  display: block;
+  margin: 0 auto;
+}
 
 .header {
-    padding: 60px;
-    text-align: center;
-    background: black;
-    color: white;
-    font-size: 12px;
-  }
-  body {
-    margin: 0;
-  }
+  padding: 5px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 12px;
+  margin-bottom: -30px;
+}
+
+.footer {
+  padding: 5px;
+  vertical-align: top;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 12px;
+  height: 60px;
+  position: relative;
+}
+
+body {
+  margin: 0;
+}
 
 
 
@@ -75,6 +103,7 @@ background-position: center;
     margin: 0 auto;
     padding: 5px;
     box-sizing: border-box; }
+
   .column,
   .columns {
     width: 100%;
@@ -86,6 +115,10 @@ background-position: center;
     .container {
       width: 85%;
       padding: 0; }
+  }
+
+  .align {
+    text-align: center;
   }
   
   /* For devices larger than 550px */
@@ -213,13 +246,13 @@ background-position: center;
   input[type="reset"],
   input[type="button"] {
     display: inline-block;
-    height: 38px;
-    padding: 0 30px;
+    height: 30px;
+    padding: 0 25px;
     color: #555;
     text-align: center;
     font-size: 11px;
     font-weight: 600;
-    line-height: 38px;
+    line-height: 30px;
     letter-spacing: .1rem;
     text-transform: uppercase;
     text-decoration: none;
