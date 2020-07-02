@@ -1,13 +1,21 @@
 
 /*MY CSS*/
 #content {
-  background-image: url(https://i.imgur.com/NqUqn7T.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  /*background-size: contain;*/
   background-position: center;
-  background-color: black;
-  height: 850px; 
+  background-color: black; 
+  height: 850px;
 }
+
+.bgImage {
+  background-image: url(https://i.imgur.com/MaQ7lc2.png);
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
+  background-position: center;
+  height: 850px;  
+} 
+
 
 .wf-loading {
   opacity: 0;
@@ -19,8 +27,8 @@
 
 .tyRound {
   position: relative;
-  max-height: 90px;
-  max-width: 90px;
+  max-height: 95px;
+  max-width: 95px;
   width: 285px;
   height: 285px;
   overflow: hidden;
