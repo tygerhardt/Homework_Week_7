@@ -9,14 +9,17 @@
 }
 
 .aboutImage {
-  max-height: 297px;
+  width: auto;
+  height: auto;
+  max-height: 275px;
+  position:relative;
   float:left;
   margin-right:15px;
-  
   color: whitesmoke;
+  display:block;
   border-radius: 5px 5px 5px 5px;
 }
-
+.h3 {color: whitesmoke;}
 .aboutText {
   color: whitesmoke;
 }
@@ -26,8 +29,9 @@
   border-style:solid;
   border-color:whitesmoke;
   padding:5px;
-  padding-bottom: 205px;
-  
+  padding-bottom: 0px;
+  min-height: 280px;
+  max-height:100%;
   border-radius: 7px 7px 7px 7px;
 }
 
@@ -44,9 +48,7 @@
   opacity: 0;
 }
 
-.p {
-  margin-bottom: -10px;
-}
+
 
 .tyRound {
   position: relative;
