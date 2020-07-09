@@ -23,7 +23,7 @@
 
     <div class="header"> 
       <h1 style="font-family: 'Libre Barcode 39 Text', cursive;">Ty Gerhardt</h1> 
-    
+      <br>
       <div>
         <div class="tyRound centerImage"><img src="https://i.imgur.com/zylubXX.png"></div>    
       </div>
@@ -31,15 +31,16 @@
         <br>
       <p style="padding-bottom: 15px;">Front-End Developer / Digital Producer / Project Manager / Certified Scrum Master</p>
     </div> 
-    <div align="center" style="padding-bottom: 5px;">
+    <div align="center" style="padding-bottom: -15px;">
       <a class="otherButton" href="file:///Users/tygerhardt/ClassWork/Homework_Week_8/index.html">&nbsp;Home&nbsp;</a>
       <a class="otherButton" href="file:///Users/tygerhardt/ClassWork/Homework_Week_8/about.html">&nbsp;About&nbsp;</a>
       <a class="otherButton" href="file:///Users/tygerhardt/ClassWork/Homework_Week_8/portfolio.html">Portfolio</a>
       <a class="otherButton" href="file:///Users/tygerhardt/ClassWork/Homework_Week_8/contact.html">Contact</a>   
     </div>
-<div class="container content">
-  <div class="row">
-    <div  class="one.column">
+<div  class="container content">
+  <div class="row ">
+    
+    <div class="one.column">
       <!-- These variables help keep track of the input name and ID-->
 <!-- currentTab helps keep track of each individual input-->
 <!-- tabControlName is used as a unique identifier for the accordion-->
@@ -48,13 +49,14 @@
     <!-- Using radio inputs means only one can be selected at a time-->
     <!-- The ID must be unique so the label will point to the input-->
     <input id="rad1" type="radio" name="rad" checked="checked"/>
-    <label style="border:0px; border-style:solid; border-bottom-left-radius:7px;border-top-left-radius:7px;" for="rad1">
+    <label style="border-bottom-left-radius:7px;border-top-left-radius:7px;" for="rad1">
       <div>My Portfolio</div>
     </label>
-    <div class="accslide">
+    <div class="accslide accslideResponsive">
       <div class="content">
-        <h3>My Portfolio</h3>
-        <p>Lorem ipsum...</p>
+        <h4>My Portfolio</h4>
+        <img src="https://i.imgur.com/7vbti9b.png" alt="" class="portfolioImage responsivePortfolio">
+        <p style="width: auto;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. </p>
       </div>
     </div>
   </li>
@@ -65,7 +67,7 @@
     <label for="rad2">
       <div>Password Generator</div>
     </label>
-    <div class="accslide">
+    <div class="accslide accslideResponsive">
       <div class="content">
         <h3>Password Generator</h3>
         <p>Lorem ipsum...</p>
@@ -79,7 +81,7 @@
     <label for="rad3">
       <div>Pandemic Workday Planner</div>
     </label>
-    <div class="accslide">
+    <div class="accslide accslideResponsive">
       <div class="content">
         <h3>Pandemic Workday Planner</h3>
         <p>Lorem ipsum...</p>
@@ -93,7 +95,7 @@
     <label for="rad4">
       <div >Weather Dashboard</div>
     </label>
-    <div class="accslide">
+    <div class="accslide accslideResponsive">
       <div class="content">
         <h3>Weather Dashboard</h3>
         <p>Lorem ipsum...</p>
@@ -107,7 +109,7 @@
     <label for="rad5">
       <div >Class Project 1: TŪNADO!</div>
     </label>
-    <div class="accslide">
+    <div class="accslide accslideResponsive">
       <div class="content">
         <h3>Class Project 1: TŪNADO!</h3>
         <p>Lorem ipsum...</p>
@@ -121,7 +123,7 @@
     <label for="rad6">
       <div >Resume</div>
     </label>
-    <div class="accslide">
+    <div class="accslide accslideResponsive">
       <div class="content">
         <h3>Resume</h3>
         <p>Lorem ipsum...</p>
