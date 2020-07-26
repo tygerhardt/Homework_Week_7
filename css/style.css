@@ -120,6 +120,7 @@
 
 body {
   margin: 0;
+  width:100%;
 }
 
 .otherButton,
@@ -486,6 +487,130 @@ input {
     width: calc(100% - 320px);
   }
 /*Accordian Colapse Ends Here */
+
+/* Larger than mobile */
+@media (min-width: 320px) {
+  .fontText {
+    font-size: 0px;
+  }
+/*
+  .headerResponsive {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .rolesResponsive {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .buttonsResponsive {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+ .responsiveCollapse {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-left: 25px;
+    min-width: 425px;
+  }
+
+ .footerResponsive {
+    margin-right: 0px;
+    margin-left: 0px;
+  }*/
+}
+
+/* Larger than mobile */
+@media (min-width: 412px) {
+}
+
+/* Larger than mobile */
+@media (min-width: 413px) {
+}
+
+/* Larger than mobile */
+@media (min-width: 414px) {
+}
+
+@media (min-width: 430px) {
+}
+
+@media (min-width: 425px) {
+}
+
+@media (min-width: 450px) {
+}
+
+@media (min-width: 475px) {
+}
+
+@media (min-width: 500px) {
+}
+
+@media (min-width: 525px) {
+} 
+    
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+}
+
+@media (min-width: 575px) {
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 625px) {
+}
+
+@media (min-width: 650px) {
+}
+
+@media (min-width: 667px) {
+}
+
+@media (min-width: 675px) {
+
+}
+
+@media (min-width: 700px) {
+}
+
+@media (min-width: 725px) {
+}
+ 
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+
+@media (min-width: 765px) {
+}
+
+@media (min-width: 775px) {
+}
+
+@media (min-width: 800px) {
+}
+
+@media (min-width: 825px) {
+}
+
+@media (min-width: 850px) {
+}
+
+/* Larger than tablet */
+ @media (min-width: 869px) {
+}
+
+ /* Larger than tablet */
+@media (min-width: 870px) {
+}
+
+
+
 
   
   
@@ -902,15 +1027,13 @@ input {
   on small devices, paste the mobile query code up in the buttons section and style it
   there.
   
-  /* Larger than mobile iPhone 6/7/8 Plus 414px */ 
-  @media (min-width: 320px) {
+   /* Larger than mobile iPhone 6/7/8 Plus 414px */
+  @media (min-width: 250px) {
     img.responsive { width: 125px; }
     img.responsiveContact { width: 155px; }
     img.responsivePortfolio { width: 0px; }
-    
-    .fontText {
-      font-size: 0px;
-    }
+    .fontText {font-size: 0px;}
+
     .headerResponsive {
       margin-right: 0px;
       margin-left: 40px;
@@ -922,822 +1045,469 @@ input {
     }
 
     .buttonsResponsive {
-      margin-right: 0px;
-      margin-left: 30px;
-    }
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 8px;
-      width: 146%;
-    } 
-
-    .footerResponsive {
-      margin-right: 0px;
+      margin-right: -20px;
       margin-left: 20px;
     }
-  }  
 
-  /*  Larger than mobile iPhone 6/7/8 Plus 414px */
-  @media (min-width: 325px) {
+    .responsiveCollapse {
+      margin-right: -30px;
+      margin-left: 0px;
+      padding-left: 10px;
+      padding-right: 0px;
+      width: 143%;
+    }
+}
+  
+
+  /* Larger than mobile iPhone 6/7/8 Plus 414px */
+    @media (min-width: 340px) {
       img.responsive { width: 125px; }
       img.responsiveContact { width: 155px; }
       img.responsivePortfolio { width: 0px; }
-      
-      .fontText {
-        font-size: 0px;
-      }
-      .headerResponsive {
-        margin-right: 0px;
-        margin-left: 40px;
-      }
-  
-      .rolesResponsive {
-        margin-right: 0px;
-        margin-left: 0px;
-      }
-  
-      .buttonsResponsive {
-        margin-right: 0px;
-        margin-left: 30px;
-      }
-      .responsiveCollapse {
-        margin-right: 0px;
-        margin-left: 0px;
-        padding-left: 5px;
-        width: 145%;
-      } 
-  
-      .footerResponsive {
-        margin-right: 0px;
-        margin-left: 20px;
-      }
-    }  
-  
 
-  /*  Larger than mobile iPhone 6/7/8 Plus 414px */
-  @media (min-width: 330px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-    
-    .fontText {
-      font-size: 0px;
-    }
-    .headerResponsive {
-      margin-right: 0px;
-      margin-left: 35px;
-    }
 
-    .rolesResponsive {
-      margin-right: 0px;
-      margin-left: 0px;
-    }
-
-    .buttonsResponsive {
-      margin-right: 0px;
-      margin-left: 20px;
-    }
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 143.5%;
-    }
-
-    .footerResponsive {
-      margin-right: 0px;
-      margin-left: 10px;
-    }
-  }
-
- /*  Larger than mobile iPhone 6/7/8 Plus 414px */
- @media (min-width: 335px) {
-  img.responsive { width: 125px; }
-  img.responsiveContact { width: 155px; }
-  img.responsivePortfolio { width: 0px; }
-  
-  .fontText {
-    font-size: 0px;
-  }
-  .headerResponsive {
-    margin-right: 0px;
-    margin-left: 35px;
-  }
-
-  .rolesResponsive {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .buttonsResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-  .responsiveCollapse {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-left: 6px;
-    width: 141%;
-  }
-
-  .footerResponsive {
-    margin-right: 0px;
-    margin-left: 10px;
-  }
 }
 
-/*  Larger than mobile iPhone 6/7/8 Plus 414px */
-@media (min-width: 340px) {
-  img.responsive { width: 125px; }
-  img.responsiveContact { width: 155px; }
-  img.responsivePortfolio { width: 0px; }
-  
-  .fontText {
-    font-size: 0px;
-  }
-  .headerResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-
-  .rolesResponsive {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .buttonsResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-  .responsiveCollapse {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-left: 5px;
-    width: 141%;
-  }
-
-  .footerResponsive {
-    margin-right: 0px;
-    margin-left: 10px;
-  }
-}
-
-/*  Larger than mobile iPhone 6/7/8 Plus 414px */
-@media (min-width: 345px) {
-  img.responsive { width: 125px; }
-  img.responsiveContact { width: 155px; }
-  img.responsivePortfolio { width: 0px; }
-  
-  .fontText {
-    font-size: 0px;
-  }
-  .headerResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-
-  .rolesResponsive {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .buttonsResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-  .responsiveCollapse {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-left: 3px;
-    width: 140.5%;
-  }
-
-  .footerResponsive {
-    margin-right: 0px;
-    margin-left: 10px;
-  }
-}
-
-/*  Larger than mobile iPhone 6/7/8 Plus 414px */
-@media (min-width: 350px) {
-  img.responsive { width: 125px; }
-  img.responsiveContact { width: 155px; }
-  img.responsivePortfolio { width: 0px; }
-  
-  .fontText {
-    font-size: 0px;
-  }
-  .headerResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-
-  .rolesResponsive {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .buttonsResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-  .responsiveCollapse {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-left: 3px;
-    width: 139.5%;
-  }
-
-  .footerResponsive {
-    margin-right: 0px;
-    margin-left: 10px;
-  }
-}
-
-/*  Larger than mobile iPhone 6/7/8 Plus 414px */
-@media (min-width: 355px) {
-  img.responsive { width: 125px; }
-  img.responsiveContact { width: 155px; }
-  img.responsivePortfolio { width: 0px; }
-  
-  .fontText {
-    font-size: 0px;
-  }
-  .headerResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-
-  .rolesResponsive {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .buttonsResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-  .responsiveCollapse {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-left: 3px;
-    width: 138.5%;
-  }
-
-  .footerResponsive {
-    margin-right: 0px;
-    margin-left: 10px;
-  }
-}
-
-/*  Larger than mobile iPhone 6/7/8 Plus 414px */
-@media (min-width: 360px) {
-  img.responsive { width: 125px; }
-  img.responsiveContact { width: 155px; }
-  img.responsivePortfolio { width: 0px; }
-  
-  .fontText {
-    font-size: 0px;
-  }
-  .headerResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-
-  .rolesResponsive {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .buttonsResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-  .responsiveCollapse {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-left: 5px;
-    width: 137%;
-  }
-
-  .footerResponsive {
-    margin-right: 0px;
-    margin-left: 10px;
-  }
-}
-
-/*  Larger than mobile iPhone 6/7/8 Plus 414px */
-@media (min-width: 365px) {
-  img.responsive { width: 125px; }
-  img.responsiveContact { width: 155px; }
-  img.responsivePortfolio { width: 0px; }
-  
-  .fontText {
-    font-size: 0px;
-  }
-  .headerResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-
-  .rolesResponsive {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .buttonsResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-  .responsiveCollapse {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-left: 5px;
-    width: 136%;
-  }
-
-  .footerResponsive {
-    margin-right: 0px;
-    margin-left: 10px;
-  }
-}
-
-/*  Larger than mobile iPhone 6/7/8 Plus 414px *
-@media (min-width: 360px) {
-  img.responsive { width: 125px; }
-  img.responsiveContact { width: 155px; }
-  img.responsivePortfolio { width: 0px; }
-  
-  .fontText {
-    font-size: 0px;
-  }
-  .headerResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-
-  .rolesResponsive {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .buttonsResponsive {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-  .responsiveCollapse {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-left: 3px;
-    width: 138%;
-  }
-
-  .footerResponsive {
-    margin-right: 0px;
-    margin-left: 10px;
-  }
-}
-
-
-
-
-
-
-
-  /*  Larger than mobile iPhone 6/7/8 Plus 414px *
-  @media (min-width: 340px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-    
-    .fontText {
-      font-size: 0px;
-    }
-    .headerResponsive {
-      margin-right: 0px;
-      margin-left: 20px;
-    }
-
-    .rolesResponsive {
-      margin-right: 0px;
-      margin-left: 0px;
-    }
-
-    .buttonsResponsive {
-      margin-right: 0px;
-      margin-left: 20px;
-    }
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 139.5%;
-    }
-
-    .footerResponsive {
-      margin-right: 0px;
-      margin-left: 10px;
-    }
-  }  
-
-  
-
-  /* Larger than mobile iPhone 6/7/8 Plus 414px *
+  /* Larger than mobile iPhone 6/7/8 Plus 414px */
   @media (min-width: 360px) {
-      img.responsive { width: 125px; }
-      img.responsiveContact { width: 155px; }
-      img.responsivePortfolio { width: 0px; }
-    
-    .fontText {
-      font-size: 0px;
+    img.responsive { width: 125px; }
+    img.responsiveContact { width: 155px; }
+    img.responsivePortfolio { width: 0px; }
+
+    .headerResponsive {
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+
+    .rolesResponsive {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+    .buttonsResponsive {
+      margin-right: 10px;
+      margin-left: 10px;
     }
 
     .responsiveCollapse {
-      margin-right: 0px;
+      margin-right: -30px;
       margin-left: 0px;
-      padding-left: 8px;
-      width: 130.5%;
+      padding-left: 10px;
+      padding-right: 0px;
+      width: 125%;
     }
-  }
 
-  /* Larger than mobile iPhone 6/7/8 Plus 414px *
+    .footerResponsive {
+      margin-right: 10px;
+      margin-left: -10px;
+    }
+}
+
+  /* Larger than mobile iPhone 6/7/8 Plus 414px */
   @media (min-width: 375px) {
-      img.responsive { width: 125px; }
-      img.responsiveContact { width: 155px; }
-      img.responsivePortfolio { width: 0px; }
+    img.responsive { width: 125px; }
+    img.responsiveContact { width: 155px; }
+    img.responsivePortfolio { width: 0px; }
+}
 
-    .fontText {
-      font-size: 0px;
-    }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 4px;
-      width: 130.5%;
-    }
-  }
+  /* Larger than mobile iPhone 6/7/8 Plus 414px */
+  @media (min-width: 360px) {
+    img.responsive { width: 125px; }
+    img.responsiveContact { width: 155px; }
+    img.responsivePortfolio { width: 0px; }
+}
 
-  /* Larger than mobile iPhone 6/7/8 Plus 414px *
-  @media (min-width: 388px) {
-      img.responsive { width: 125px; }
-      img.responsiveContact { width: 155px; }
-      img.responsivePortfolio { width: 0px; }
-    
-    .fontText {
-      font-size: 0px;
-    }
-
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 128%;
-    }
-  }
-
-  /* Larger than mobile iPhone 6/7/8 Plus 414px *
-  @media (min-width: 400px) {
-      img.responsive { width: 125px; }
-      img.responsiveContact { width: 155px; }
-      img.responsivePortfolio { width: 0px; }
-    
-    .fontText {
-      font-size: 0px;
-    }
-
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 126%;
-    }
-  }
-
-  /* Larger than mobile iPhone 6/7/8 Plus 414px *
+  /* Larger than mobile iPhone 6/7/8 Plus 414px */
   @media (min-width: 411px) {
     img.responsive { width: 125px; }
     img.responsiveContact { width: 155px; }
     img.responsivePortfolio { width: 0px; }
 
-    .fontText {
-      font-size: 0px;
+    .headerResponsive {
+      margin-right: 0px;
+      margin-left: -25px;
+    }
+
+    .rolesResponsive {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+    .buttonsResponsive {
+      margin-right: 20px;
+      margin-left: -18px;
     }
 
     .responsiveCollapse {
-      margin-right: 0px;
+      margin-right: -30px;
       margin-left: 0px;
-      padding-left: 4px;
-      width: 126%;
-    }
-  }
+      padding-left: 8px;
+      padding-right: 0px;
+      width: 118%;
+}
 
-  /* Larger than mobile iPhone 6/7/8 Plus 414px *
+  /* Larger than mobile iPhone 6/7/8 Plus 414px */
   @media (min-width: 420px) {
     img.responsive { width: 125px; }
     img.responsiveContact { width: 155px; }
     img.responsivePortfolio { width: 0px; }
+}
 
-    .fontText {
-      font-size: 0px;
-    }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 8px;
-      width: 124%;
-    }
-  }
-
-  /* Larger than mobile iPhone 6/7/8 Plus 414px *
-  @media (min-width: 440px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-
-    .fontText {
-      font-size: 0px;
-    }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 4px;
-      width: 124%;
-    }
-  }
-
-  /* Larger than mobile iPhone 6/7/8 Plus 414px *
-  @media (min-width: 440px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-
-    .fontText {
-      font-size: 0px;
-    }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 7px;
-      width: 123%;
-    }
-  }
-
-  /* Larger than mobile iPhone 6/7/8 Plus 414px *
-  @media (min-width: 454px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-
-    .fontText {
-      font-size: 0px;
-    }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 123%;
-    }
-  }
-
-  /* Larger than mobile iPhone 6/7/8 Plus 414px *
-  @media (min-width: 460px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-
-    .fontText {
-      font-size: 0px;
-    }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 7px;
-      width: 122.5%;
-    }
-  }
-
-  /* Larger than mobile iPhone 6/7/8 Plus 414px *
-  @media (min-width: 460px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-
-    .fontText {
-      font-size: 0px;
-    }
-
-    .buttonsResponsive {
-      margin-right: 10px;
-      margin-left: 10px;
-    }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 122.5%;
-    }
-  }
-
-  /* Larger than phablet (also point when grid becomes active) *
+  /* Larger than phablet (also point when grid becomes active) */
   @media (min-width: 475px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-  
-    .fontText {
-      font-size: 32px;
-    }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 122%;
-    }
-  }
+    img.responsive {width: 125px;}
+    img.responsiveContact {width: 200px;}
+    img.responsivePortfolio {width: 0px;}
+    .fontText {font-size: 0px;}
+}
 
-  /* Larger than phablet (also point when grid becomes active) *
-  @media (min-width: 477px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
+  /* Larger than phablet (also point when grid becomes active) */
+  @media (min-width: 476px) {
+    img.responsive {width: 125px;}
+    img.responsiveContact {width: 200px;}
+    img.responsivePortfolio {width: 0px;}
+    .fontText {font-size: 32px;}
+}
+  
+  /* Larger than tablet iPad 768px */
+  @media (min-width: 770px) {
+    img.responsive {width: 150px;}
+    img.responsiveContact {width: 180px;} 
+    img.responsivePortfolio {width: 185px;}
+}
+ 
 
-    .buttonsResponsive {
-      margin-right: 10px;
-      margin-left: 5px;
-    }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 122%;
-    }
-  }
+  /* Larger than desktop */
+  @media (min-width: 900px) {
+    img.responsive {width: 150px;}
+    img.responsiveContact {width: 180px;} 
+    img.responsivePortfolio {width: 185px;}
 
-  /* Larger than phablet (also point when grid becomes active) *
-  @media (min-width: 480px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-  
     .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 121.5%;
+      margin-right: -25px;
+      margin-left: 50px;
+      padding-left: 1px;
+      padding-right: 0px;
+      width: 100%;
     }
-  }
+}
 
-  /* Larger than phablet (also point when grid becomes active) *
-  @media (min-width: 500px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 121%;
-    }
-  }
+  /* Larger than desktop iPad Pro 1024px */
+  @media (min-width: 925px) {
+    img.responsive {width: 150px;}
+    img.responsiveContact {width: 180px;} 
+    img.responsivePortfolio {width: 185px;}
+}
 
-  /* Larger than phablet (also point when grid becomes active) *
-  @media (min-width: 500px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 120%;
-    }
-  } 
-  
-  /* Larger than phablet (also point when grid becomes active) *
-  @media (min-width: 529px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 119.5%;
-    }
-  }  
+/* Larger than Desktop HD */
+@media (min-width: 950px) {
 
-  /* Larger than phablet (also point when grid becomes active) *
-  @media (min-width: 545px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 119%;
-    }
-  } 
-  
-  /* Larger than phablet (also point when grid becomes active) *
-  @media (min-width: 529px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 118.5%;
-    }
-  }
+  .responsiveCollapse {
+     margin-right: -25px;
+     margin-left: 25px;
+     padding-left: 40px;
+     padding-right: 0px;
+     width: 100%;
+   }
+}
 
-  /* Larger than phablet (also point when grid becomes active) *
-  @media (min-width: 560px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-  
-    .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-left: 5px;
-      width: 119.5%;
-    }
-  }
+    /* Larger than Desktop HD */
+    @media (min-width: 975px) {
 
-  /* Larger than desktop iPad Pro 1024px 
+      .responsiveCollapse {
+         margin-right: 0px;
+         margin-left: 0px;
+         padding-left: 20px;
+         padding-right: 0px;
+         width: 100%;
+       }  
+   }
+
+  /* Larger than desktop */
+  @media (min-width: 1000px) {
+    img.responsive {width: 150px;}
+    img.responsiveContact {width: 180px;} 
+    img.responsivePortfolio {width: 185px;}
+
+    .responsiveCollapse {
+      margin-right: -25px;
+      margin-left: 50px;
+      padding-left: 1px;
+      padding-right: 0px;
+      width: 100%;
+    }
+}
+
+  /* Larger than desktop iPad Pro 1024px */
   @media (min-width: 1025px) {
-    img.responsive { width: 150px; }
-    img.responsiveContact { width: 180px; } 
-    img.responsivePortfolio { width: 185px; }
-    
-    /* .responsiveCollapse{
-      margin-right: -120px;
-      margin-left: 140px;
-      width: 100%;}*/
+    img.responsive {width: 150px;}
+    img.responsiveContact {width: 180px;} 
+    img.responsivePortfolio {width: 185px;}
 }
 
-  /* Larger than desktop 
+/* Larger than Desktop HD */
+@media (min-width: 1050px) {
+
+  .responsiveCollapse {
+     margin-right: -25px;
+     margin-left: 25px;
+     padding-left: 40px;
+     padding-right: 0px;
+     width: 100%;
+   }
+}
+
+    /* Larger than Desktop HD */
+    @media (min-width: 1075px) {
+
+      .responsiveCollapse {
+         margin-right: -37px;
+         margin-left: 37px;
+         padding-left: 0px;
+         padding-right: 0px;
+         width: 100%;
+       }  
+   }
+
+
+  /* Larger than desktop */
   @media (min-width: 1100px) {
-    img.responsive { width: 150px; }
-    img.responsiveContact { width: 180px; } 
-    img.responsivePortfolio { width: 185px; }
-    
-    /* .responsiveCollapse{
-      margin-right: -120px;
-      margin-left: 140px;
-      width: 100%;}*/
+    img.responsive {width: 150px;}
+    img.responsiveContact {width: 180px;} 
+    img.responsivePortfolio {width: 185px;}
+
+    .responsiveCollapse {
+      margin-right: -37px;
+      margin-left: 37px;
+      padding-left: 20px;
+      padding-right: 0px;
+      width: 100%;
+    }
 }
 
+ /* Larger than Desktop HD */
+ @media (min-width: 1125px) {
+  .responsiveCollapse {
+     margin-right: -32px;
+     margin-left: 35px;
+     padding-left: 20px;
+     padding-right: 0px;
+     width: 100%;
+   }
+}
 
+ /* Larger than Desktop HD */
+ @media (min-width: 1150px) {
 
-  /* Larger than Desktop HD 
+  .responsiveCollapse {
+     margin-right: -30px;
+     margin-left: 30px;
+     padding-left: 30px;
+     padding-right: 0px;
+     width: 100%;
+   }
+}
+    /* Larger than Desktop HD */
+    @media (min-width: 1175px) {
+
+      .responsiveCollapse {
+         margin-right: -27px;
+         margin-left: 32px;
+         padding-left: 40px;
+         padding-right: 0px;
+         width: 100%;
+       }  
+   }
+  /* Larger than Desktop HD */
   @media (min-width: 1200px) {
-    img.responsive { width: 150px; } 
-    img.responsiveContact { width: 180px; }
-    img.responsivePortfolio { width: 185px; }
-    
-    /* .responsiveCollapse{
-      margin-right: -120px;
-      margin-left: 140px;
-      width: 100%;}*/
+    img.responsive {width: 150px;} 
+    img.responsiveContact {width: 180px;}
+    img.responsivePortfolio {width: 185px;}
+
+    .responsiveCollapse {
+      margin-right: -37px;
+      margin-left: 37px;
+      padding-left: 40px;
+      padding-right: 0px;
+      width: 100%;
+    }
+  }
+    /* Larger than Desktop HD */
+    @media (min-width: 1225px) {
+
+      .responsiveCollapse {
+         margin-right: -37px;
+         margin-left: 37px;
+         padding-left: 50px;
+         padding-right: 0px;
+         width: 100%;
+       }
+   
+   }
+ /* Larger than Desktop HD */
+ @media (min-width: 1238px) {
+
+  .responsiveCollapse {
+     margin-right: -37px;
+     margin-left: 37px;
+     padding-left: 55px;
+     padding-right: 0px;
+     width: 100%;
+   }
+
 }
 
-  /* Larger than Desktop HD 
-  @media (min-width: 1500px) {
-    img.responsive { width: 150px; } 
-    img.responsivePortfolio { width: 185px; }
-    
-    /* .responsiveCollapse{
-      margin-right: -120px;
-      margin-left: 140px;
-      width: 100%;}
+ /* Larger than Desktop HD */
+ @media (min-width: 1250px) {
 
-    /* Larger than Desktop HD 
-  @media (min-width: 1800px) {
-    img.responsive { width: 150px; } 
-    img.responsivePortfolio { width: 185px; }
-    
-    /* .responsiveCollapse{
-      margin-right: -120px;
-      margin-left: 140px;
-      width: 100%;}
+  .responsiveCollapse {
+     margin-right: -47px;
+     margin-left: 47px;
+     padding-left: 60px;
+     padding-right: 0px;
+     width: 100%;
+   }
   }
-  
-    
+
+  /* Larger than Desktop HD */
+  @media (min-width: 1275px) {
+
+    .responsiveCollapse {
+       margin-right: -75px;
+       margin-left: 75px;
+       padding-left: 62px;
+       padding-right:0px;
+       width: 100%;
+     }  
+ }
+
+/* Larger than Desktop HD */
+ @media (min-width: 1300px) {
+
+  .responsiveCollapse {
+     margin-right: -100px;
+     margin-left: 100px;
+     padding-left:20px;
+     padding-right:0px;
+     width: 100%;
+   }
+}
+  /* Larger than Desktop HD */
+  @media (min-width: 1325px) {
+
+    .responsiveCollapse {
+       margin-right: -113px;
+       margin-left: 113px;
+       padding-left: 0px;
+       padding-right: 0px;
+       width: 100%;
+     }
+ }
+
+   /* Larger than Desktop HD */
+   @media (min-width: 1350px) {
+
+    .responsiveCollapse {
+       margin-right: -125px;
+       margin-left: 125px;
+       padding-left: 0px;
+       padding-right: 0px;
+       width: 100%;
+     }
+ }
+ 
+      /* Larger than Desktop HD */
+      @media (min-width: 1375px) {
+
+        .responsiveCollapse {
+           margin-right: -138px;
+           margin-left: 138px;
+           padding-left: 0px;
+           padding-right: 0px;
+           width: 100%;
+         }
+     }
+
+      /* Larger than Desktop HD */
+   @media (min-width: 1400px) {
+
+    .responsiveCollapse {
+       margin-right: -150px;
+       margin-left: 150px;
+       padding-left: 0px;
+       padding-right: 0px;
+       width: 100%;
+     }
+ }
+ 
+    /* Larger than Desktop HD */
+    @media (min-width: 1425px) {
+ 
+     .responsiveCollapse {
+        margin-right: -163px;
+        margin-left: 163px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+      }
+    }
+ 
+ 
+ /* Larger than Desktop HD */
+    @media (min-width: 1450px) {
+ 
+     .responsiveCollapse {
+        margin-right: -175px;
+        margin-left: 175px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+      }
+    }
+ /* Larger than Desktop HD */
+ @media (min-width: 1475px) {
+
+  .responsiveCollapse {
+     margin-right: -187px;
+     margin-left: 187px;
+     padding-left: 0px;
+     padding-right: 0px;
+     width: 100%;
+   }
+ }
+
+/* Larger than Desktop HD */
+@media (min-width: 1500px) {
+
+.responsiveCollapse {
+margin-right: -200px;
+margin-left: 200px;
+padding-left: 0px;
+padding-right: 0px;
+width: 100%;
+}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1580px) {
+
+  .responsiveCollapse {
+  margin-right: -200px;
+  margin-left: 200px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+  }
+  }
+
+/* Larger than Desktop HD */
+@media (min-width: 1640px) {
+
+  .responsiveCollapse {
+  margin-right: -200px;
+  margin-left: 200px;
+  padding-left: 100px;
+  padding-right: 0px;
+  width: 100%;
+  }
+  }
