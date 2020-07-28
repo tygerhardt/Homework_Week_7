@@ -8,8 +8,6 @@
   height: 850px;
 }
 
-
-
 .aboutImage {
   width: auto;
   height: auto;
@@ -21,20 +19,33 @@
   display:block;
   border-radius: 5px 5px 5px 5px;
 }
+
 .portfolioImage {
   width: auto;
   height: auto;
   position:relative;
   float:left;
-  margin-right:0px;  
+  margin-right:10px;  
   margin-bottom: 0px;
   color: whitesmoke;
   display:block;
 }
+
+.portfolioPWGImage {
+  width: auto;
+  height: auto;
+  position:relative;
+  float:left;
+  margin-right: 10px;
+  margin-left: 0px;  
+  margin-bottom: 0px;
+  color: whitesmoke;
+  display:block;
+}
+
 .contactImage {
   width: auto;
   height: auto;
-
   position:relative;
   float:right;
   margin-right:0px;
@@ -70,12 +81,9 @@
  
 } 
 
-
 .wf-loading {
   opacity: 0;
 }
-
-
 
 .tyRound {
   position: relative;
@@ -150,8 +158,6 @@ input[type="button"] {
   
      /*Accordian Colapse Starts Here*/
 
- 
-
   @import url("https://fonts.googleapis.com/css?family=Open+Sans");
   * {
     margin: 0;
@@ -203,20 +209,6 @@ input {
     -webkit-transition: background 300ms ease;
     transition: background 300ms ease;
   }
-
-  /*.leftLabel {
-    display: block;
-    float: left;
-    height: 302px;
-    width: 30px;
-    overflow: hidden;
-    background: rgba(153,102,0,0.5);
-    text-align: center;
-    font-size: 14px;
-    line-height: 50px;
-    -webkit-transition: background 300ms ease;
-    transition: background 300ms ease;
-  }*/
   
   li:nth-child(even) > input + label {
     background: rgba(238,238,238,0.15);
@@ -225,7 +217,7 @@ input {
   label:hover,
   li:nth-child(even) > input + label:hover {
     
-    background: transparent;
+    background: whitesmoke;
     color: whitesmoke;
     cursor: pointer;
   }
@@ -488,15 +480,7 @@ input {
   }
 /*Accordian Colapse Ends Here */
 
-
-
-
-
-  
-  
-
-
-/*END MY CSS*/  
+/*END OF MY CSS*/  
 
 /*
 * Skeleton V2.0.4
