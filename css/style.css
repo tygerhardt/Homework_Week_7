@@ -26,7 +26,7 @@
   height: auto;
   position:relative;
   float:left;
-  margin-right:10px;  
+  margin-right:0px;  
   margin-bottom: 0px;
   color: whitesmoke;
   display:block;
@@ -488,126 +488,6 @@ input {
   }
 /*Accordian Colapse Ends Here */
 
-/* Larger than mobile */
-@media (min-width: 320px) {
-  .fontText {
-    font-size: 0px;
-  }
-/*
-  .headerResponsive {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .rolesResponsive {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .buttonsResponsive {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
- .responsiveCollapse {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-left: 0px;
-    padding-left: 25px;
-    min-width: 425px;
-  }
-
- .footerResponsive {
-    margin-right: 0px;
-    margin-left: 0px;
-  }*/
-}
-
-/* Larger than mobile */
-@media (min-width: 412px) {
-}
-
-/* Larger than mobile */
-@media (min-width: 413px) {
-}
-
-/* Larger than mobile */
-@media (min-width: 414px) {
-}
-
-@media (min-width: 430px) {
-}
-
-@media (min-width: 425px) {
-}
-
-@media (min-width: 450px) {
-}
-
-@media (min-width: 475px) {
-}
-
-@media (min-width: 500px) {
-}
-
-@media (min-width: 525px) {
-} 
-    
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
-}
-
-@media (min-width: 575px) {
-}
-
-@media (min-width: 600px) {
-}
-
-@media (min-width: 625px) {
-}
-
-@media (min-width: 650px) {
-}
-
-@media (min-width: 667px) {
-}
-
-@media (min-width: 675px) {
-
-}
-
-@media (min-width: 700px) {
-}
-
-@media (min-width: 725px) {
-}
- 
-/* Larger than tablet */
-@media (min-width: 750px) {
-}
-
-@media (min-width: 765px) {
-}
-
-@media (min-width: 775px) {
-}
-
-@media (min-width: 800px) {
-}
-
-@media (min-width: 825px) {
-}
-
-@media (min-width: 850px) {
-}
-
-/* Larger than tablet */
- @media (min-width: 869px) {
-}
-
- /* Larger than tablet */
-@media (min-width: 870px) {
-}
 
 
 
@@ -1034,27 +914,32 @@ input {
     img.responsivePortfolio { width: 0px; }
     .fontText {font-size: 0px;}
 
+    .responsiveBody {
+      margin-left: 90px;
+      padding-left: 0px;
+    }
+
     .headerResponsive {
       margin-right: 0px;
-      margin-left: 40px;
+      margin-left: 10px;
     }
 
     .rolesResponsive {
       margin-right: 0px;
-      margin-left: 0px;
+      margin-left: -5px;
     }
 
     .buttonsResponsive {
-      margin-right: -20px;
-      margin-left: 20px;
+      margin-right: 0px;
+      margin-left: 10px;
     }
 
     .responsiveCollapse {
       margin-right: -30px;
       margin-left: 0px;
-      padding-left: 10px;
+      padding-left: 5px;
       padding-right: 0px;
-      width: 143%;
+      width: 139.5%;
     }
 }
   
@@ -1076,55 +961,6 @@ input {
 
     .headerResponsive {
       margin-right: 0px;
-      margin-left: 0px;
-    }
-
-    .rolesResponsive {
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-
-    .buttonsResponsive {
-      margin-right: 10px;
-      margin-left: 10px;
-    }
-
-    .responsiveCollapse {
-      margin-right: -30px;
-      margin-left: 0px;
-      padding-left: 10px;
-      padding-right: 0px;
-      width: 125%;
-    }
-
-    .footerResponsive {
-      margin-right: 10px;
-      margin-left: -10px;
-    }
-}
-
-  /* Larger than mobile iPhone 6/7/8 Plus 414px */
-  @media (min-width: 375px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-}
-
-  /* Larger than mobile iPhone 6/7/8 Plus 414px */
-  @media (min-width: 360px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-}
-
-  /* Larger than mobile iPhone 6/7/8 Plus 414px */
-  @media (min-width: 411px) {
-    img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
-    img.responsivePortfolio { width: 0px; }
-
-    .headerResponsive {
-      margin-right: 0px;
       margin-left: -25px;
     }
 
@@ -1135,15 +971,63 @@ input {
 
     .buttonsResponsive {
       margin-right: 20px;
-      margin-left: -18px;
+      margin-left: 0px;
     }
 
     .responsiveCollapse {
       margin-right: -30px;
       margin-left: 0px;
-      padding-left: 8px;
+      padding-left: 5px;
       padding-right: 0px;
-      width: 118%;
+      width: 123%;
+    }
+
+    .footerResponsive {
+      margin-right: 10px;
+      margin-left: -15px;
+    }
+}
+
+  /* Larger than mobile iPhone 6/7/8 Plus 414px */
+  @media (min-width: 375px) {
+    img.responsive { width: 125px; }
+    img.responsiveContact { width: 155px; }
+    img.responsivePortfolio { width: 0px; }
+}
+
+
+  /* Larger than mobile iPhone 6/7/8 Plus 414px */
+  @media (min-width: 411px) {
+    img.responsive { width: 125px; }
+    img.responsiveContact { width: 155px; }
+    img.responsivePortfolio { width: 0px; }
+
+    .headerResponsive {
+      margin-right: 0px;
+      margin-left: -40px;
+    }
+
+    .rolesResponsive {
+      margin-right: 55px;
+      margin-left: 45px;
+    }
+
+    .buttonsResponsive {
+      margin-right: 20px;
+      margin-left: -33px;
+    }
+
+    .responsiveCollapse {
+      margin-right: -30px;
+      margin-left: 0px;
+      padding-left: 5px;
+      padding-right: 0px;
+      width: 113.5%;
+    }
+      .footerResponsive {
+        margin-right: 30px;
+        margin-left: -30px;
+      }
 }
 
   /* Larger than mobile iPhone 6/7/8 Plus 414px */
@@ -1161,19 +1045,63 @@ input {
     .fontText {font-size: 0px;}
 }
 
+
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 476px) {
+  img.responsive {width: 125px;}
+  img.responsiveContact {width: 200px;}
+  img.responsivePortfolio {width: 0px;}
+  .fontText {font-size: 0px;}
+
+}
+
   /* Larger than phablet (also point when grid becomes active) */
   @media (min-width: 476px) {
     img.responsive {width: 125px;}
     img.responsiveContact {width: 200px;}
-    img.responsivePortfolio {width: 0px;}
+    img.responsivePortfolio {width: 185px;}
     .fontText {font-size: 32px;}
 }
   
   /* Larger than tablet iPad 768px */
-  @media (min-width: 770px) {
+  @media (min-width: 768px) {
     img.responsive {width: 150px;}
     img.responsiveContact {width: 180px;} 
     img.responsivePortfolio {width: 185px;}
+
+    .responsiveBody {
+      margin-left: 60px;
+      padding-left: 0px;
+    }
+
+    .headerResponsive {
+      margin-right: 0px;
+      margin-left: -30px;
+    }
+
+    .rolesResponsive {
+      margin-right: 0px;
+      margin-left: -30px;
+    }
+
+    .buttonsResponsive {
+      margin-right: 0px;
+      margin-left: -60px;
+    }
+
+    .responsiveCollapse {
+      margin-right: 0px;
+      margin-left: 20px;
+      padding-left: 10px;
+      padding-right: 0px;
+      width: 106%;
+    }
+
+    .footerResponsive {
+      margin-right: 0px;
+      margin-left: 0px;
+    }
 }
  
 
@@ -1183,9 +1111,14 @@ input {
     img.responsiveContact {width: 180px;} 
     img.responsivePortfolio {width: 185px;}
 
+    .responsiveBody {
+      margin-left: 0px;
+      padding-left: 0px;
+    }
+
     .responsiveCollapse {
       margin-right: -25px;
-      margin-left: 50px;
+      margin-left: 60px;
       padding-left: 1px;
       padding-right: 0px;
       width: 100%;
@@ -1204,7 +1137,7 @@ input {
 
   .responsiveCollapse {
      margin-right: -25px;
-     margin-left: 25px;
+     margin-left: 15px;
      padding-left: 40px;
      padding-right: 0px;
      width: 100%;
@@ -1214,13 +1147,14 @@ input {
     /* Larger than Desktop HD */
     @media (min-width: 975px) {
 
-      .responsiveCollapse {
-         margin-right: 0px;
-         margin-left: 0px;
-         padding-left: 20px;
-         padding-right: 0px;
-         width: 100%;
-       }  
+  
+
+       .responsiveCollapse {
+        margin-right: 0px;
+        margin-left: 35px;
+        padding-left: 20px;
+        padding-right: 0px;
+        width: 100%;}
    }
 
   /* Larger than desktop */
@@ -1231,7 +1165,7 @@ input {
 
     .responsiveCollapse {
       margin-right: -25px;
-      margin-left: 50px;
+      margin-left: 40px;
       padding-left: 1px;
       padding-right: 0px;
       width: 100%;
@@ -1239,10 +1173,16 @@ input {
 }
 
   /* Larger than desktop iPad Pro 1024px */
-  @media (min-width: 1025px) {
+  @media (min-width: 1024px) {
     img.responsive {width: 150px;}
     img.responsiveContact {width: 180px;} 
     img.responsivePortfolio {width: 185px;}
+    
+    .responsiveBody {
+      margin-left: 25px;
+      padding-left: 0px;
+    }
+
 }
 
 /* Larger than Desktop HD */
@@ -1250,7 +1190,7 @@ input {
 
   .responsiveCollapse {
      margin-right: -25px;
-     margin-left: 25px;
+     margin-left: 15px;
      padding-left: 40px;
      padding-right: 0px;
      width: 100%;
@@ -1261,9 +1201,9 @@ input {
     @media (min-width: 1075px) {
 
       .responsiveCollapse {
-         margin-right: -37px;
-         margin-left: 37px;
-         padding-left: 0px;
+         margin-right: -25px;
+         margin-left: 15px;
+         padding-left: 40px;
          padding-right: 0px;
          width: 100%;
        }  
@@ -1302,7 +1242,7 @@ input {
   .responsiveCollapse {
      margin-right: -30px;
      margin-left: 30px;
-     padding-left: 30px;
+     padding-left: 20px;
      padding-right: 0px;
      width: 100%;
    }
@@ -1313,7 +1253,7 @@ input {
       .responsiveCollapse {
          margin-right: -27px;
          margin-left: 32px;
-         padding-left: 40px;
+         padding-left: 20px;
          padding-right: 0px;
          width: 100%;
        }  
@@ -1327,7 +1267,7 @@ input {
     .responsiveCollapse {
       margin-right: -37px;
       margin-left: 37px;
-      padding-left: 40px;
+      padding-left: 10px;
       padding-right: 0px;
       width: 100%;
     }
@@ -1338,7 +1278,7 @@ input {
       .responsiveCollapse {
          margin-right: -37px;
          margin-left: 37px;
-         padding-left: 50px;
+         padding-left: 10px;
          padding-right: 0px;
          width: 100%;
        }
@@ -1350,7 +1290,7 @@ input {
   .responsiveCollapse {
      margin-right: -37px;
      margin-left: 37px;
-     padding-left: 55px;
+     padding-left: 10px;
      padding-right: 0px;
      width: 100%;
    }
@@ -1362,8 +1302,8 @@ input {
 
   .responsiveCollapse {
      margin-right: -47px;
-     margin-left: 47px;
-     padding-left: 60px;
+     margin-left: 40px;
+     padding-left: 5px;
      padding-right: 0px;
      width: 100%;
    }
@@ -1374,8 +1314,8 @@ input {
 
     .responsiveCollapse {
        margin-right: -75px;
-       margin-left: 75px;
-       padding-left: 62px;
+       margin-left: 55px;
+       padding-left: 5px;
        padding-right:0px;
        width: 100%;
      }  
@@ -1386,8 +1326,8 @@ input {
 
   .responsiveCollapse {
      margin-right: -100px;
-     margin-left: 100px;
-     padding-left:20px;
+     margin-left: 60px;
+     padding-left: 5px;
      padding-right:0px;
      width: 100%;
    }
@@ -1396,48 +1336,48 @@ input {
   @media (min-width: 1325px) {
 
     .responsiveCollapse {
-       margin-right: -113px;
-       margin-left: 113px;
-       padding-left: 0px;
-       padding-right: 0px;
-       width: 100%;
-     }
+      margin-right: -100px;
+      margin-left: 60px;
+      padding-left: 30px;
+      padding-right:0px;
+      width: 100%;
+    }
  }
 
    /* Larger than Desktop HD */
    @media (min-width: 1350px) {
 
     .responsiveCollapse {
-       margin-right: -125px;
-       margin-left: 125px;
-       padding-left: 0px;
-       padding-right: 0px;
-       width: 100%;
-     }
+      margin-right: -100px;
+      margin-left: 60px;
+      padding-left: 40px;
+      padding-right:0px;
+      width: 100%;
+    }
  }
  
       /* Larger than Desktop HD */
       @media (min-width: 1375px) {
 
         .responsiveCollapse {
-           margin-right: -138px;
-           margin-left: 138px;
-           padding-left: 0px;
-           padding-right: 0px;
-           width: 100%;
-         }
+          margin-right: -100px;
+          margin-left: 70px;
+          padding-left: 60px;
+          padding-right:0px;
+          width: 100%;
+        }
      }
 
       /* Larger than Desktop HD */
    @media (min-width: 1400px) {
 
     .responsiveCollapse {
-       margin-right: -150px;
-       margin-left: 150px;
-       padding-left: 0px;
-       padding-right: 0px;
-       width: 100%;
-     }
+      margin-right: -100px;
+      margin-left: 80px;
+      padding-left: 50px;
+      padding-right:0px;
+      width: 100%;
+    }
  }
  
     /* Larger than Desktop HD */
@@ -1445,13 +1385,23 @@ input {
  
      .responsiveCollapse {
         margin-right: -163px;
-        margin-left: 163px;
+        margin-left: 130px;
         padding-left: 0px;
         padding-right: 0px;
         width: 100%;
       }
     }
+     /* Larger than Desktop HD */
+     @media (min-width: 1440px) {
  
+      .responsiveCollapse {
+         margin-right: -130px;
+         margin-left: 110px;
+         padding-left: 0px;
+         padding-right: 0px;
+         width: 100%;
+       }
+     }
  
  /* Larger than Desktop HD */
     @media (min-width: 1450px) {
@@ -1507,6 +1457,51 @@ width: 100%;
   margin-right: -200px;
   margin-left: 200px;
   padding-left: 100px;
+  padding-right: 0px;
+  width: 100%;
+  }
+
+}
+
+@media (min-width: 1749px) {
+
+  .responsiveCollapse {
+  margin-right: -250px;
+  margin-left: 200px;
+  padding-left: 200px;
+  padding-right: 0px;
+  width: 100%;
+  }
+
+}
+
+@media (min-width: 1790px) {
+
+  .responsiveCollapse {
+  margin-right: -250px;
+  margin-left: 220px;
+  padding-left: 200px;
+  padding-right: 0px;
+  width: 100%;
+  }
+
+}
+
+
+
+  /* Larger than Desktop HD */
+@media (min-width: 2400px) {
+
+  .responsiveBody {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+
+  .responsiveCollapse {
+  margin-right: -800px;
+  margin-left: 600px;
+  padding-left: 0px;
   padding-right: 0px;
   width: 100%;
   }
