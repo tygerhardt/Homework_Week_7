@@ -8,6 +8,24 @@
   height: 850px;
 }
 
+mark.blue {
+  color:#11c6f3;
+  background: none;
+  font-weight: bold;
+}
+
+mark.red {
+  color:#da1c19;
+  background: none;
+  font-weight: bold;
+}
+
+mark.green {
+  color:#11f32f;
+  background: none;
+  font-weight: bold;
+}
+
 .aboutImage {
   width: auto;
   height: auto;
