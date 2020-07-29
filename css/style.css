@@ -8,6 +8,13 @@
   height: 850px;
 }
 
+#bullet {
+  list-style-Type: none;
+  padding: 0 0 4px 23px;
+  color: whitesmoke;
+  background: url(https://www.computerhope.com/arrow.gif) no-repeat left top;
+  }
+
 mark.blue {
   color:#11c6f3;
   background: none;
@@ -912,7 +919,7 @@ input {
    /* Larger than mobile iPhone 6/7/8 Plus 414px */
   @media (min-width: 250px) {
     img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
+    img.responsiveContact { width: 0px; }
     img.responsivePortfolio { width: 0px; }
     .fontText {font-size: 0px;}
 
@@ -949,7 +956,7 @@ input {
   /* Larger than mobile iPhone 6/7/8 Plus 414px */
     @media (min-width: 340px) {
       img.responsive { width: 125px; }
-      img.responsiveContact { width: 155px; }
+      img.responsiveContact { width: 0px; }
       img.responsivePortfolio { width: 0px; }
 
 
@@ -958,7 +965,7 @@ input {
   /* Larger than mobile iPhone 6/7/8 Plus 414px */
   @media (min-width: 360px) {
     img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
+    img.responsiveContact { width: 0px; }
     img.responsivePortfolio { width: 0px; }
 
     .headerResponsive {
@@ -993,7 +1000,7 @@ input {
   /* Larger than mobile iPhone 6/7/8 Plus 414px */
   @media (min-width: 375px) {
     img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
+    img.responsiveContact { width: 0px; }
     img.responsivePortfolio { width: 0px; }
 }
 
@@ -1001,7 +1008,7 @@ input {
   /* Larger than mobile iPhone 6/7/8 Plus 414px */
   @media (min-width: 411px) {
     img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
+    img.responsiveContact { width: 0px; }
     img.responsivePortfolio { width: 0px; }
 
     .headerResponsive {
@@ -1035,14 +1042,14 @@ input {
   /* Larger than mobile iPhone 6/7/8 Plus 414px */
   @media (min-width: 420px) {
     img.responsive { width: 125px; }
-    img.responsiveContact { width: 155px; }
+    img.responsiveContact { width: 0px; }
     img.responsivePortfolio { width: 0px; }
 }
 
   /* Larger than phablet (also point when grid becomes active) */
   @media (min-width: 475px) {
     img.responsive {width: 125px;}
-    img.responsiveContact {width: 200px;}
+    img.responsiveContact {width: 0px;}
     img.responsivePortfolio {width: 0px;}
     .fontText {font-size: 0px;}
 }
@@ -1052,18 +1059,18 @@ input {
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 476px) {
   img.responsive {width: 125px;}
-  img.responsiveContact {width: 200px;}
+  img.responsiveContact {width: 0px;}
   img.responsivePortfolio {width: 0px;}
-  .fontText {font-size: 0px;}
+  .fontText {font-size: 32px;}
 
 }
 
   /* Larger than phablet (also point when grid becomes active) */
-  @media (min-width: 476px) {
+  @media (min-width: 477px) {
     img.responsive {width: 125px;}
     img.responsiveContact {width: 200px;}
     img.responsivePortfolio {width: 185px;}
-    .fontText {font-size: 32px;}
+
 }
   
   /* Larger than tablet iPad 768px */
