@@ -916,7 +916,7 @@ input {
   on small devices, paste the mobile query code up in the buttons section and style it
   there.
   
-   /* Larger than mobile iPhone 6/7/8 Plus 414px */
+   /* Larger than mobile iPhone 6/7/8 Plus 250px */
   @media (min-width: 250px) {
     img.responsive { width: 125px; }
     img.responsiveContact { width: 0px; }
@@ -944,16 +944,55 @@ input {
     }
 
     .responsiveCollapse {
-      margin-right: -30px;
-      margin-left: 0px;
-      padding-left: 5px;
+      margin-right: -40px;
+      margin-left: -0px;
+      padding-left: 0px;
       padding-right: 0px;
-      width: 139.5%;
+      width: 160.5%;
     }
 }
   
 
-  /* Larger than mobile iPhone 6/7/8 Plus 414px */
+   /* Larger than mobile iPhone 6/7/8 Plus 250px */
+   @media (min-width: 300px) {
+    img.responsive { width: 125px; }
+    img.responsiveContact { width: 0px; }
+    img.responsivePortfolio { width: 0px; }
+    .fontText {font-size: 0px;}
+
+    .responsiveBody {
+      margin-left: 90px;
+      padding-left: 0px;
+    }
+
+    .headerResponsive {
+      margin-right: 0px;
+      margin-left: 10px;
+    }
+
+    .rolesResponsive {
+      margin-right: 0px;
+      margin-left: -5px;
+    }
+
+    .buttonsResponsive {
+      margin-right: 0px;
+      margin-left: 10px;
+    }
+
+    .responsiveCollapse {
+      margin-right: -50px;
+      margin-left: -15px;
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 155.5%;
+    }
+}
+
+
+  
+
+  /* Larger than 340px */
     @media (min-width: 340px) {
       img.responsive { width: 125px; }
       img.responsiveContact { width: 0px; }
@@ -985,10 +1024,10 @@ input {
 
     .responsiveCollapse {
       margin-right: -30px;
-      margin-left: 0px;
+      margin-left: -25px;
       padding-left: 5px;
       padding-right: 0px;
-      width: 123%;
+      width: 145%;
     }
 
     .footerResponsive {
@@ -1002,6 +1041,29 @@ input {
     img.responsive { width: 125px; }
     img.responsiveContact { width: 0px; }
     img.responsivePortfolio { width: 0px; }
+
+    .headerResponsive {
+      margin-right: 0px;
+      margin-left: -30px;
+    }
+
+    .rolesResponsive {
+      margin-right: 20px;
+      margin-left: 15px;
+    }
+
+    .buttonsResponsive {
+      margin-right: 20px;
+      margin-left: -5px;
+    }
+
+    .responsiveCollapse {
+      margin-right: -30px;
+      margin-left: -15px;
+      padding-left: 5px;
+      padding-right: 0px;
+      width: 135%;
+    }
 }
 
 
@@ -1013,29 +1075,29 @@ input {
 
     .headerResponsive {
       margin-right: 0px;
-      margin-left: -40px;
+      margin-left: -25px;
     }
 
     .rolesResponsive {
-      margin-right: 55px;
-      margin-left: 45px;
+      margin-right: 35px;
+      margin-left: 15px;
     }
 
     .buttonsResponsive {
       margin-right: 20px;
-      margin-left: -33px;
+      margin-left: -15px;
     }
 
     .responsiveCollapse {
       margin-right: -30px;
-      margin-left: 0px;
+      margin-left: -5px;
       padding-left: 5px;
       padding-right: 0px;
-      width: 113.5%;
+      width: 130.5%;
     }
       .footerResponsive {
         margin-right: 30px;
-        margin-left: -30px;
+        margin-left: 0px;
       }
 }
 
@@ -1074,7 +1136,7 @@ input {
 }
   
   /* Larger than tablet iPad 768px */
-  @media (min-width: 768px) {
+  @media (min-width: 767px) {
     img.responsive {width: 150px;}
     img.responsiveContact {width: 180px;} 
     img.responsivePortfolio {width: 185px;}
@@ -1086,7 +1148,7 @@ input {
 
     .headerResponsive {
       margin-right: 0px;
-      margin-left: -30px;
+      margin-left: 0px;
     }
 
     .rolesResponsive {
@@ -1100,16 +1162,17 @@ input {
     }
 
     .responsiveCollapse {
-      margin-right: 0px;
-      margin-left: 20px;
+      margin-right: -40px;
+      margin-left: 90px;
       padding-left: 10px;
       padding-right: 0px;
-      width: 106%;
+      width: 88%;
     }
 
     .footerResponsive {
+      
       margin-right: 0px;
-      margin-left: 0px;
+      margin-left: -300px;
     }
 }
  
@@ -1466,6 +1529,19 @@ width: 100%;
   margin-right: -200px;
   margin-left: 200px;
   padding-left: 100px;
+  padding-right: 0px;
+  width: 100%;
+  }
+
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1700px) {
+
+  .responsiveCollapse {
+  margin-right: -200px;
+  margin-left: 200px;
+  padding-left: 200px;
   padding-right: 0px;
   width: 100%;
   }
